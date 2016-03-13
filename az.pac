@@ -1,5 +1,4 @@
 # Customized-Pac
-PAC customized
 
 var FindProxyForURL = function(init, profiles) {
     return function(url, host) {
