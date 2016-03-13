@@ -1,4 +1,4 @@
-var proxy = "PROXY jw06.setdns.work:80; PROXY server01.pac.itzmx.com:25;";
+var proxy = "PROXY jw06.setdns.work:80;PROXY server01.pac.itzmx.com:25;";
 
 var domains = {
   "bannedbook.org": 1, 
