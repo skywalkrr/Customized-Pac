@@ -1,5 +1,7 @@
 # Customized-Pac
-PAC customizevar FindProxyForURL = function(init, profiles) {
+PAC customized
+
+var FindProxyForURL = function(init, profiles) {
     return function(url, host) {
         "use strict";
         var result = init, scheme = url.substr(0, url.indexOf(":"));
