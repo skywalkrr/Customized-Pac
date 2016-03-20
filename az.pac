@@ -11,7 +11,7 @@ var FindProxyForURL = function(init, profiles) {
 }("+PAC", {
     "+PAC": function() {
         ;
-var proxy = "PROXY jw06.setdns.work:80;PROXY server01.pac.itzmx.com:25;";
+var proxy = "PROXY jw06.setdns.work:80; PROXY server01.pac.itzmx.com:25;";
 
 var domains = {
   "bannedbook.org": 1, 
@@ -28,6 +28,8 @@ var domains = {
   "oovoo.com": 1,
   "zoom.us": 1,
   "bannedbook.net": 1,  
+  "jackdapp.com": 1,
+  "line.me": 1,
   "huaglad.com": 1,
   "doubleclick.net": 1,
   "googleadsensetvsite.com": 1,
