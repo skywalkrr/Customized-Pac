@@ -11,7 +11,7 @@ var FindProxyForURL = function(init, profiles) {
 }("+PAC", {
     "+PAC": function() {
         ;
-var proxy = "PROXY jw06.setdns.work:80; PROXY server01.pac.itzmx.com:25;";
+var proxy = "PROXY xi.dnsfree.space:80; PROXY jw06.setdns.work:80; PROXY server01.pac.itzmx.com:25;";
 
 var domains = {
   "bannedbook.org": 1, 
